@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <time.h>
 #include "E101.h"
-int main(){
-	init();
 
+void quad1()
+{
 		// gate closed
 		char ip [15] = "130.195.6.196";
 		int port = 1024;
@@ -19,17 +19,11 @@ int main(){
 		// gate opens
 
 		printf("Gate opened \n");
+}
 
-		//set_motor(1,60);
-		//sleep1(1,0);
-
-		//printf("Hi Emma  \n");
-
-		//int row  = 1;
-		//double weight = -160;
-		//double  total = 0;  //biggest possible total 12880 or -12880
-
-		int picCount = 0;
+void quad2()
+{
+	int picCount = 0;
         	//take_picture();
 
        		//display_picture(5,0);
@@ -143,10 +137,27 @@ int main(){
 		set_motor(1,0);
 		set_motor(2,0);
 
-			//sleep1(1,0);
+}
 
-		return 0;
-	}
+void quad3()
+{
+	
+}
+
+void quad4()
+{
+	
+}
+
+
+
+int main()
+{
+	init();
+	quad1();
+
+	return 0;
+}
 
 
 
