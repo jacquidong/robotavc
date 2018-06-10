@@ -12,9 +12,9 @@ This is our Github repository for our robot.
 
 [x] Quadrant 2
 
-[ ] Quadrant 3
+[x] Quadrant 3
 
-[ ] Quadrant 4
+[x] Quadrant 4
 
 # DEAD LINES
 
@@ -22,4 +22,4 @@ This is our Github repository for our robot.
 
 [x] Progress Report - 21 May
 
-[ ] Final Report - 11 June
+[x] Final Report - 11 June
